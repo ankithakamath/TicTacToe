@@ -1,9 +1,13 @@
-package com.yml.Main;
+package com.yml.main;
+
+import com.yml.tictactoe.CreateBoard;
 
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Game of Tic Tac toe");
+        CreateBoard b= new CreateBoard();
+        b.start();
 	}
 
 }
